@@ -1,0 +1,27 @@
+.btn-facebook,
+.btn-facebook:hover,
+.btn-facebook:active,
+.btn-facebook:focus {
+  background-color: #3b5998;
+  color: #fff;
+  width: 125px;
+}
+.btn-google,
+.btn-google:hover,
+.btn-google:active,
+.btn-google:focus {
+  background-color: #db4437;
+  color: #fff;
+  width: 125px;
+}
+
+.g-recaptcha {
+  transform-origin: left top;
+  -webkit-transform-origin: left top;
+}
+.help-block-recaptcha {
+  margin-top: -10px;
+}
+.grecaptcha-badge {
+  display: none;
+}

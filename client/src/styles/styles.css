@@ -1,0 +1,265 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.876px;
+  padding-top: 80px;
+  min-height: 100%;
+}
+
+.icon-margin-left {
+  margin-left: 5px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.half {
+  width: 50%;
+}
+
+.label-1 {
+  font-weight: 400;
+}
+
+.form-group-1 {
+  margin-bottom: 25px;
+}
+
+.checkbox-1,
+.radio-1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+input,
+textarea,
+select,
+button,
+.input-group-addon {
+  border-radius: 0 !important;
+}
+
+input,
+select,
+textarea {
+  letter-spacing: 0.876px;
+}
+button {
+  letter-spacing: 1.543px;
+}
+
+.abc-checkbox label::before {
+  border-radius: 0;
+}
+
+@keyframes toast-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.toastify {
+  padding: 8px;
+}
+
+.toastify-content {
+  min-height: 60px;
+}
+.toast-logo {
+  -webkit-animation: toast-logo-spin infinite 20s linear;
+  animation: toast-logo-spin infinite 20s linear;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: 0;
+  top: -15%;
+}
+
+.toast-content {
+  margin-left: 65px;
+  margin-top: 5px;
+  color: #000;
+}
+
+.padding-zero {
+  padding: 0;
+}
+
+.control-label {
+  font-weight: 400;
+}
+
+.btn {
+  min-width: 100px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mb25 {
+  margin-bottom: 25px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.ml5 {
+  margin-left: 5px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+
+.pt25 {
+  padding-top: 25px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.pb25 {
+  padding-bottom: 25px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.pl5 {
+  padding-left: 5px;
+}
+.pr5 {
+  padding-right: 5px;
+}
+.pl10 {
+  padding-left: 10px;
+}
+.pr10 {
+  padding-right: 10px;
+}
+
+.icon-margin {
+  margin: 0 5px -5px 0;
+}
+
+.g-recaptcha {
+  transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+}
+
+.well {
+  background-color: #f8f8f8;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.table > thead > tr > th {
+  border-bottom: 0;
+}
+.table > thead > tr > th a {
+  text-decoration: none;
+}
+.table > tbody > tr > td.row-middle {
+  vertical-align: middle;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  color: #fff;
+  background-color: #555b61;
+  border-color: #6c757d;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.gi-2x {
+  font-size: 2em;
+}
+.gi-3x {
+  font-size: 3em;
+}
+.gi-4x {
+  font-size: 4em;
+}
+.gi-5x {
+  font-size: 5em;
+}
+
+.progress {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.picture {
+  width: 50px;
+  height: 50px;
+}
+
+.form-inline .full-width {
+  width: 100%;
+  margin-left: -15px;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.panel {
+  border-radius: 0;
+}
+.panel-heading {
+  border-radius: 0;
+}
+
+.well {
+  padding-bottom: 50px;
+}

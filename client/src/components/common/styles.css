@@ -1,0 +1,154 @@
+.modal-content {
+  border-radius: 0;
+}
+.modal-header {
+  background-color: #f8f8f8;
+  border: 0;
+}
+.modal-footer {
+  border: 0;
+}
+.close {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  cursor: pointer;
+}
+.file-upload {
+  display: none !important;
+}
+
+.loader {
+  border: 5px solid #aaa;
+  border-radius: 50%;
+  border-top: 5px solid #0b57c1;
+  width: 45px;
+  height: 45px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+/* toggle checkbox */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  outline: none;
+}
+.switch input {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #2196f3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.checkbox span.toggle-label {
+  padding: 10px;
+  position: absolute;
+}
+
+.sort {
+  position: relative;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination > li > button,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.pagination > li.active > button,
+.pagination > li.active > span {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.pagination > li:first-child > button,
+.pagination > li:first-child > span {
+  border-radius: 0;
+}
+.pagination > li:last-child > button,
+.pagination > li:last-child > span {
+  border-radius: 0;
+}
+
+.suggestions {
+  list-style: none;
+  border-bottom: honeydew;
+  border-left: honeydew;
+  border-right: honeydew;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 2px 2px;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+
+.suggestions li {
+  padding: 8px;
+  padding-left: 50px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #8ba6bd;
+  color: #fff;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #ddd;
+}
